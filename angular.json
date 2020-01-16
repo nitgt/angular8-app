@@ -86,7 +86,8 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-starter:build"
+            "browserTarget": "angular-starter:build",
+            "port": 8080
           }
         },
         "test": {
