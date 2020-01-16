@@ -24,4 +24,4 @@ steps:
 - task: PublishPipelineArtifact@0
   inputs:
       artifactName: 'angular'
-      targetPath: 'src/angular7/dist'
+      targetPath: 'dist'
